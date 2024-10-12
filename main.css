@@ -1,0 +1,62 @@
+
+.use_of_color{
+    color: blue;
+    text-shadow: #6f4080 1px 2px 4px;
+}
+
+.outer-list {
+    list-style-type: lower-greek;
+}
+
+.inner-list1 {
+    list-style-type: square;
+}
+
+.inner-list2 {
+    list-style-type: none;
+}
+
+.inner-list2 li::before {
+    content: "-- ";
+}
+
+.inner-list3 li {
+    list-style-type: none;
+    padding-left: 25px;
+    background-image: url('fl.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px 15px;
+}
+/* Write your code here: */
+h1,h2{
+    color:   blueviolet;
+}
+
+.box > p{
+    color:   firebrick;
+}
+
+ul li {
+    color:   blue;
+}
+
+li.done {
+    color: green;
+}
+
+ul p.done {
+    font-size: 0.5rem;
+}
+.positioned-right {
+    position: absolute;
+    right: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.with-content::before {
+    content: "Використання content: ";
+}
